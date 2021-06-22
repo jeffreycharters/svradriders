@@ -45497,7 +45497,8 @@ var convertToPostPreview = (object) => {
   const url = object.path.replace(".md", "").replace("src/", "");
   return { ...object.attributes, url };
 };
-var postFiles = importMarkdowns(`src/posts/`);
+var postFiles = importMarkdowns("src/posts/");
+console.log(postFiles);
 var get$1 = () => {
   let posts = postFiles.map((file) => convertToPostPreview(file));
   let body = JSON.stringify(posts);
