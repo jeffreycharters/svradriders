@@ -45414,7 +45414,7 @@ function init(settings) {
 var d = decodeURIComponent;
 var empty = () => ({});
 var manifest = {
-  assets: [{ "file": "favicon.ico", "size": 12862, "type": "image/vnd.microsoft.icon" }, { "file": "global.css", "size": 243, "type": "text/css" }, { "file": "posts/ath-blatht.md", "size": 120, "type": "text/markdown" }, { "file": "posts/blog-first.md", "size": 121, "type": "text/markdown" }, { "file": "posts/twoth-blog.md", "size": 126, "type": "text/markdown" }],
+  assets: [{ "file": "favicon.ico", "size": 12862, "type": "image/vnd.microsoft.icon" }, { "file": "global.css", "size": 243, "type": "text/css" }],
   layout: "src/routes/__layout.svelte",
   error: ".svelte-kit/build/components/error.svelte",
   routes: [
@@ -45494,10 +45494,10 @@ var importMarkdowns = (markdownPath) => {
   return fileNames.map((path) => convertMarkdown(path));
 };
 var convertToPostPreview = (object) => {
-  const url = object.path.replace(".md", "").replace("static/", "");
+  const url = object.path.replace(".md", "").replace("src/", "");
   return { ...object.attributes, url };
 };
-var postFiles = importMarkdowns("static/posts/");
+var postFiles = importMarkdowns(`src/posts/`);
 var get$1 = () => {
   let posts = postFiles.map((file) => convertToPostPreview(file));
   let body = JSON.stringify(posts);
@@ -45510,7 +45510,7 @@ var index_json = /* @__PURE__ */ Object.freeze({
 });
 var get = ({ params }) => {
   const { slug } = params;
-  const post = convertMarkdown(`static/posts/${slug}.md`);
+  const post = convertMarkdown(`src/posts/${slug}.md`);
   const body = JSON.stringify(post);
   return { body };
 };

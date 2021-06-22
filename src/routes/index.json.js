@@ -1,8 +1,7 @@
 import { importMarkdowns, convertToPostPreview } from '$lib/handle-markdown';
 import { dev } from '$app/env';
 
-let path = dev ? `static/posts/` : `posts/`;
-let postFiles = importMarkdowns(path);
+let postFiles = importMarkdowns(`src/posts/`);
 
 export const get = () => {
   let posts = postFiles.map(file => convertToPostPreview(file));
