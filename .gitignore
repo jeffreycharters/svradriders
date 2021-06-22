@@ -1,6 +1,6 @@
+/build
+/functions
 .DS_Store
 node_modules
 /.svelte-kit
 /package
-build
-functions
