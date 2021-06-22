@@ -45384,9 +45384,9 @@ function init(settings) {
     amp: false,
     dev: false,
     entry: {
-      file: "/./_app/start-d33c52de.js",
+      file: "/./_app/start-0ff83cf5.js",
       css: ["/./_app/assets/start-a8cd1609.css"],
-      js: ["/./_app/start-d33c52de.js", "/./_app/chunks/vendor-f50fe1fc.js"]
+      js: ["/./_app/start-0ff83cf5.js", "/./_app/chunks/vendor-f50fe1fc.js"]
     },
     fetched: void 0,
     floc: false,
@@ -45468,7 +45468,7 @@ var module_lookup = {
     return _slug_;
   })
 };
-var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-e386d9cf.js", "css": ["/./_app/assets/pages/__layout.svelte-43f78f6c.css"], "js": ["/./_app/pages/__layout.svelte-e386d9cf.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-fd368713.js", "css": [], "js": ["/./_app/error.svelte-fd368713.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-7637a9c7.js", "css": ["/./_app/assets/pages/index.svelte-3bbb5699.css"], "js": ["/./_app/pages/index.svelte-7637a9c7.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, "src/routes/posts/[slug].svelte": { "entry": "/./_app/pages/posts/[slug].svelte-4583a861.js", "css": ["/./_app/assets/pages/posts/[slug].svelte-272c33d4.css"], "js": ["/./_app/pages/posts/[slug].svelte-4583a861.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null } };
+var metadata_lookup = { "src/routes/__layout.svelte": { "entry": "/./_app/pages/__layout.svelte-e386d9cf.js", "css": ["/./_app/assets/pages/__layout.svelte-43f78f6c.css"], "js": ["/./_app/pages/__layout.svelte-e386d9cf.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, ".svelte-kit/build/components/error.svelte": { "entry": "/./_app/error.svelte-fd368713.js", "css": [], "js": ["/./_app/error.svelte-fd368713.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, "src/routes/index.svelte": { "entry": "/./_app/pages/index.svelte-20c56a29.js", "css": ["/./_app/assets/pages/index.svelte-3bbb5699.css"], "js": ["/./_app/pages/index.svelte-20c56a29.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null }, "src/routes/posts/[slug].svelte": { "entry": "/./_app/pages/posts/[slug].svelte-4583a861.js", "css": ["/./_app/assets/pages/posts/[slug].svelte-272c33d4.css"], "js": ["/./_app/pages/posts/[slug].svelte-4583a861.js", "/./_app/chunks/vendor-f50fe1fc.js"], "styles": null } };
 async function load_component(file) {
   return {
     module: await module_lookup[file](),
@@ -45573,10 +45573,10 @@ var PostCard = create_ssr_component(($$result, $$props, $$bindings, slots) => {
 });
 var css$1 = {
   code: "main.svelte-dvy8zl{padding:4vw}",
-  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  export async function load({ fetch }) {\\n    const posts = await fetch(\\"/index.json\\").then((r) => r.json());\\n\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  import PostCard from \\"../components/PostCard.svelte\\";\\n  export let posts;\\n<\/script>\\n\\n<main>\\n  <h1>Posts</h1>\\n  {#each posts as post}\\n    <PostCard {...post} />\\n  {/each}\\n</main>\\n\\n<style>\\n  main {\\n    padding: 4vw;\\n  }\\n</style>\\n"],"names":[],"mappings":"AAuBE,IAAI,cAAC,CAAC,AACJ,OAAO,CAAE,GAAG,AACd,CAAC"}'
+  map: '{"version":3,"file":"index.svelte","sources":["index.svelte"],"sourcesContent":["<script context=\\"module\\">\\n  export async function load({ fetch }) {\\n    const posts = await fetch(\\"index.json\\").then((r) => r.json());\\n\\n    return {\\n      props: { posts },\\n    };\\n  }\\n<\/script>\\n\\n<script>\\n  import PostCard from \\"../components/PostCard.svelte\\";\\n  export let posts;\\n<\/script>\\n\\n<main>\\n  <h1>Posts</h1>\\n  {#each posts as post}\\n    <PostCard {...post} />\\n  {/each}\\n</main>\\n\\n<style>\\n  main {\\n    padding: 4vw;\\n  }\\n</style>\\n"],"names":[],"mappings":"AAuBE,IAAI,cAAC,CAAC,AACJ,OAAO,CAAE,GAAG,AACd,CAAC"}'
 };
 async function load$1({ fetch: fetch3 }) {
-  const posts = await fetch3("/index.json").then((r) => r.json());
+  const posts = await fetch3("index.json").then((r) => r.json());
   return { props: { posts } };
 }
 var Routes = create_ssr_component(($$result, $$props, $$bindings, slots) => {
