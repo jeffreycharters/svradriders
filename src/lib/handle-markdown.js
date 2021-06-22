@@ -5,6 +5,7 @@ import remark from 'remark';
 import html from 'remark-html';
 import rehypePrism from '@mapbox/rehype-prism';
 import rehype from 'rehype';
+import path from 'path';
 
 /*  @param path path to markdown file
  *  @returns { path, attributes, body }
