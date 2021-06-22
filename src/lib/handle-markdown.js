@@ -5,7 +5,6 @@ import remark from 'remark';
 import html from 'remark-html';
 import rehypePrism from '@mapbox/rehype-prism';
 import rehype from 'rehype';
-import path from 'path';
 
 /*  @param path path to markdown file
  *  @returns { path, attributes, body }
@@ -33,7 +32,7 @@ export const importMarkdowns = (markdownPath) => {
 }
 
 export const convertToPostPreview = (object) => {
-  const url = object.path.replace(".md", "").replace("src/", "");
+  const url = object.path.replace(".md", "").replace("static/", "");
 
   return { ...object.attributes, url };
 }
