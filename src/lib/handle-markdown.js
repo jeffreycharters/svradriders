@@ -34,6 +34,7 @@ export const importMarkdowns = (markdownPath) => {
 export const convertToPostPreview = (object) => {
   const url = object.path.replace(".md", "")
     .replace("static/", "")
+    .replace("entries/", "posts/")
 
   return { ...object.attributes, url };
 }
