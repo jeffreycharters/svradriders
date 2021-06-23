@@ -33,7 +33,7 @@ export const importMarkdowns = (markdownPath) => {
 
 export const convertToPostPreview = (object) => {
   const url = object.path.replace(".md", "")
-    .replace("src/", "")
+    .replace("static/", "")
 
   return { ...object.attributes, url };
 }
