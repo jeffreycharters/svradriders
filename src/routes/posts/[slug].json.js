@@ -3,9 +3,9 @@ import { convertMarkdown } from '$lib/handle-markdown';
 
 export const get = ({ params }) => {
   const { slug } = params;
-  //const markdownPath = dev ? 'static/entries/' : '/entries/'
+  //const markdownPath = dev ? 'static/' : ''
   //const post = convertMarkdown(`${markdownPath}${slug}.md`);
-  const post = convertMarkdown(`entries/${slug}.md`);
+  const post = convertMarkdown(`static/entries/${slug}.md`);
   const body = JSON.stringify(post);
 
   return { body }
