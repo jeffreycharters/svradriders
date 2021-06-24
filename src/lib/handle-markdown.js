@@ -26,8 +26,8 @@ export const convertMarkdown = (path) => {
 /* @param markdownPath path to folder with markdown files
  * @returns [...filenames]
  */
-export const importMarkdowns = (markdownPath) => {
-  let fileNames = glob.sync(`${markdownPath}*.md`);
+export const importMarkdowns = (markdownPath, file = '*') => {
+  let fileNames = glob.sync(`${markdownPath}${file}.md`);
   return fileNames.map(path => convertMarkdown(path))
 }
 
