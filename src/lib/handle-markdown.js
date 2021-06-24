@@ -35,6 +35,7 @@ export const convertToPostPreview = (object) => {
   const url = 'posts/' + object.path.replace(".md", "")
     .replace("static/", "")
     .replace("entries/", "")
+    .replace("src/", "")
 
   return { ...object.attributes, url };
 }
