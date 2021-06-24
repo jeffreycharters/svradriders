@@ -1,12 +1,10 @@
-import { convertMarkdown } from '$lib/handle-markdown';
-//import { dev } from '$app/env'
+import { importMarkdowns, convertToPost } from '$lib/handle-markdown';
 
 export const get = ({ params }) => {
   const { slug } = params;
-  //const markdownPath = dev ? 'static/' : ''
-  //const post = convertMarkdown(`${markdownPath}${slug}.md`);
-  const post = convertMarkdown(`src/entries/${slug}.md`);
-  const body = JSON.stringify(post);
 
-  return { body }
+  const postFile = importMarkdowns('static/entries/', slug)[0];
+  let body = JSON.stringify(postFile);
+
+  return { body };
 }
