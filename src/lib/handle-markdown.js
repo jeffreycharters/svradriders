@@ -23,11 +23,26 @@ export const convertMarkdown = (path) => {
   return { path, attributes, html: result }
 }
 
+export const convertMarkdownLink = async (path) => {
+  let file = await fetch(path)
+    .then(r => r.text())
+  let { attributes, body } = fm(file);
+
+  let result = remark()
+    .use(html)
+    .processSync(body).contents;
+  result = rehype()
+    .use(rehypePrism)
+    .processSync(result).contents;
+
+  return { path, attributes, html: result }
+}
+
 /* @param markdownPath path to folder with markdown files
  * @returns [...filenames]
  */
-export const importMarkdowns = (markdownPath, file = '*') => {
-  let fileNames = glob.sync(`${markdownPath}${file}.md`);
+export const importMarkdowns = (markdownPath) => {
+  let fileNames = glob.sync(`${markdownPath}*.md`);
   return fileNames.map(path => convertMarkdown(path))
 }
 
