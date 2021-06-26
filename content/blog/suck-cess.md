@@ -1,7 +1,6 @@
 +++
 title = "On humble beginnings and the truth in beauty"
 date = "2021-06-25"
-image = "images/2021-06-25-out_biking.jpg"
 description = "Wherein the hero wanders aimless for three books."
 tags = [
     "markdown",

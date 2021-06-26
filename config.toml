@@ -1,116 +1,50 @@
-baseURL = "https://example.com"
-title = "Blonde"
-author = "wamo"
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-theme = "Blonde"
+baseURL = "https://radriders.netlify.app"
+
+# The name of this wonderful theme ;-).
+theme = 'hugo-bearblog'
+
+# Basic metadata configuration for your blog.
+title = "RadRidersMTB"
+author = "Jeffrey"
+copyright = "Copyright © 2021, Dade Wilcox."
+languageCode = "en-US"
+
+# Generate a nice robots.txt for SEO
 enableRobotsTXT = true
 
-# Please enable this feature if the site is available in Japanese, Chinese or Korean.
-#hasCJKLanguage = true
-
-# If you're using Google Analytics, you can enable this feature.
-#googleAnalytics = "G-1234567890"
-
-# Disqus Comment System
-#disqusShortname = ""
+# Generate "Bearblog"-like URLs !only!, see https://bearblog.dev/.
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+[permalinks]
+blog = "/:slug/"
+tags = "/blog/:slug"
 
 [params]
-# The number of articles to be displayed on a single page.
-paginator_pages = "5"
+# The "description" of your website. This is used in the meta data of your generated html.
+description = "A crappy mountain biking and miscellaneous blog by a smart guy."
 
-# Enable this if you want the archive list to be in a drop-down format.
-archive_dropdown = "false"
+# The path to your "favicon". This should be a square (at least 32px x 32px) png-file.
+# Hint: It's good practise to also put a "favicon.ico"-file into your "static"-folder.
+favicon = "images/favicon.ico"
 
-# Number of tags to be displayed.
-tagsLimit = 20
+# These "images" are used for the structured data templates. This will show up, when
+# services like Twitter or Slack want to generate a preview of a link to your site.
+# See https://gohugo.io/templates/internal#twitter-cards and
+# https://gohugo.io/templates/internal#open-graph.
+#images = ["images/share.png"]
 
-# Dark mode by default : dark
-# Light mode by default : light
-darkmode = "light"
+# Another "title" :-). This one is used as the site_name on the Hugo's internal
+# opengraph structured data template.
+# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
+title = "Radriders Mountain Biking"
 
-[params.post]
-# Show thumbnails
-thumbnail = true
+# This theme will, by default, inject a made-with-line at the bottom of the page.
+# You can turn it off, but we would really appreciate if you don’t :-).
+# hideMadeWithLine = true
 
-# Disable the "NO IMAGE" image.
-noimage = true
-
-# See the Tailwind CSS documentation to set it up.
-# Recommended settings are h-32 to h-48.
-# https://tailwindcss.com/docs/height
-thumbnail_height = "h-44"
-
-# https://tailwindcss.com/docs/width
-thumbnail_width = "w-auto"
-
-# Number of characters in description
-description = "130"
-
-[params.widgets]
-archives = false
-categories = true
-tags = true
-recentposts = true
-search = false
-
-# If you're using Yandex.Metrica, you can enable this feature.
-#[params.analytics.yandexmetrica]
-#    enabled = true
-#    tagNumber = ''
-
-[menu]
-
-[[menu.main]]
-identifier = "home"
-name = "Home"
-url = "/"
-weight = 1
-
-[[menu.main]]
-identifier = "about"
-name = "About"
-url = "/about/"
-weight = 2
-
-[[menu.main]]
-identifier = "contact"
-name = "Contact"
-url = "/contact/"
-weight = 3
-
-[taxonomies]
-category = "categories"
-tag = "tags"
-archive = "archives"
-
-[privacy]
-
-[privacy.vimeo]
-disabled = false
-simple = true
-
-[privacy.twitter]
-disabled = false
-enableDNT = true
-simple = true
-
-[privacy.instagram]
-disabled = false
-simple = true
-
-[privacy.youtube]
-disabled = false
-privacyEnhanced = true
-
-[services]
-
-[services.instagram]
-disableInlineCSS = true
-
-[services.twitter]
-disableInlineCSS = true
-
-[build]
-writeStats = true
+# By default, this theme displays dates with a format like "02 Jan, 2006", but
+# you can customize it by setting the `dateFormat` param in your site's config
+# file. See [Hugo's Format function docs](https://gohugo.io/functions/format/)
+# for details. An example TOML config that uses [ISO
+# 8601](https://en.wikipedia.org/wiki/ISO_8601) format:
+dateFormat = "Jan 2, 2006"
