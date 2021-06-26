@@ -1,6 +1,7 @@
 +++
 title = "On humble beginnings and the truth in beauty"
 date = "2021-06-25"
+image = "images/2021-06-25-out_biking.jpg"
 description = "Wherein the hero wanders aimless for three books."
 tags = [
     "markdown",
@@ -13,6 +14,8 @@ tags = [
 So now we can all just forget about all this shit and go ride bikes.
 
 No wait, don't. At least, not yet.
+
+![Image: Out for a bike ride](/images/2021-06-25-out_biking.jpg "Hello")
 
 Thanks to the smart people down at [Hugo](https://gohugo.io), I've been able to spin up this blog. Now I have a place to froth my ideas and thinkings where it's not just taking up precious space in my head. Since I was really expecting to do this, I have no real thoughts to expel so let's just carry on our days like this never happened, deal?
 
