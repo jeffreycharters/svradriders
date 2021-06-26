@@ -9,9 +9,9 @@
 {{ else }}
 {{/* set image sizes, these are hardcoded for now */}}
 
-{{ $tinyw := default "720x" }}
-{{ $smallw := default "800x" }}
-{{ $mediumw := default "1200x" }}
+{{ $tinyw := default "720x q85 gaussian" }}
+{{ $smallw := default "800x q85 gaussian" }}
+{{ $mediumw := default "1200x q85 gaussian" }}
 
 {{/* resize the src image to the given sizes */}}
 
@@ -30,7 +30,7 @@
 <img class="blog-image"
   {{ with .Get "sizes" }}sizes='{{.}}'
   {{ else }}
-  sizes="(min-width: 600px) 1200px, 100vw"{{ end }}
+  sizes="(min-width: 600px) 720px, 100vw"{{ end }}
   srcset='
   {{ if ge $src.Width "720" }}
     {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
