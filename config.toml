@@ -1,4 +1,5 @@
 baseURL = "https://radriders.netlify.app"
+canonifyURLs = true
 
 # The name of this wonderful theme ;-).
 theme = 'hugo-bearblog'
