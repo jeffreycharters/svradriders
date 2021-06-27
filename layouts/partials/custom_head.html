@@ -4,6 +4,19 @@ p > img, .blog-image {
   border-radius: 5px;
   margin: auto;
 }
+
+.title-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 720px;
+  padding: 0;
+}
+
+.title-child {
+  padding: 0;
+  margin: 0;
+}
 </style>
 
 {{ if .Params.canonicalUrl }}
