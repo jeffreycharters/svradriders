@@ -2,6 +2,11 @@
 title: "Looking Better"
 date: 2021-06-27T13:36:15-04:00
 draft: false
+description: "A quick update on some behind-the-scenes goings-on."
+tags: [
+    "meta",
+    "list"
+]
 ---
 
 Alright, we're starting to get things looking a bit more like home.
