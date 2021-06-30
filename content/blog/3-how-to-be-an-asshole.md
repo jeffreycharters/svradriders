@@ -16,7 +16,7 @@ One of the great lessons that we all learn in life is that no matter what you do
 1. Do our best to move past it and try to ignore it, or
 2. Write a dickish post on your blog about the things that bug you.
 
-Since I'm really bad at the first (try as I might), I guess here we are doing the second. And mountain bike trails could even be a bit worse, since they are often shared with a variety of other trail users like hikers, equestrians and whatever you call those people who walk their dogs on the trails and hang little bags of poop in the trees pretending they plan to come back for them at some random point in the future.
+Since I'm really bad at the first (try as I might), I guess here we are doing the second. So if I'm going to have to deal with idiots, I at least want them to be as obnoxious as possible so I have a good story to tell later.
 
 If you're reading this there's a good chance that you're not currently an asshole, so let's not waste anymore time getting you on your way.
 
