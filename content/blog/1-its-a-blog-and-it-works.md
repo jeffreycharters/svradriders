@@ -1,14 +1,14 @@
-+++
-title = "It's a blog and it works"
-author = "Dade Wilcox"
-date = "2021-06-25"
-updated = "2021-06-27"
-description = "Wherein the hero wanders aimless for three books."
-tags = [
-    "markdown",
+---
+title: "It's a blog and it works"
+author: "Dade Wilcox"
+date: "2021-06-25"
+updated: "2021-06-27"
+description: "Wherein the hero wanders aimless for three books."
+tags: [
+    "hugo",
     "meta",
 ]
-+++
+---
 
 ## Radriders is a blog again!
 

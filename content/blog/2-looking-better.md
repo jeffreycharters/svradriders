@@ -7,6 +7,7 @@ tags: [
     "meta",
     "list"
 ]
+author: "Dade Wilcox"
 ---
 
 Alright, we're starting to get things looking a bit more like home.

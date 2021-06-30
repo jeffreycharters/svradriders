@@ -1,6 +1,4 @@
-## We're back, hosers!
-
-🚴💨 We're always back.
+We're back.
 
 This time let's focus on content instead of just dicking around pretending we're going to add functionality that we all know we'll never add.
 
