@@ -8,7 +8,7 @@ tags: [
     "tutorial",
     "timsistrash"
 ]
-draft: false
+draft: true
 ---
 
 One of the great lessons that we all learn in life is that no matter what you do, a certain number of people are just going to be idiots. There are two courses of action we can take in response to this:
