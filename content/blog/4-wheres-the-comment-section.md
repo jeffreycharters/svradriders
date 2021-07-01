@@ -8,7 +8,7 @@ tags: [
     "gorba",
     "trails"
 ]
-draft: true
+draft: false
 ---
 
 Since the pandemic brought normal life to a crushing halt 15-ish months ago, people flocked in droves to outdoor sports where they could get away from the gross moist exhalations of their fellow man. And since it's 2021, their fellow woman as well. To this day there are probably like three times more people on the trails than before the pandemic.
