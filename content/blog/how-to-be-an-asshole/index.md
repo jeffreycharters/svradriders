@@ -33,7 +33,8 @@ Unfortunately, a few super-lame entrepreneurs have developed bone conduction tec
 I was going to call people out on their shitty music. But then I remembered when it's blasting out of a Bluetooth speaker in the middle of the forest there's no such thing as shitty music.
 
 {{< image src="2021-06-30-bike-speaker.webp" alt="An illustration of a mountain biker scaring animals with their music." caption="Blast it." >}}
-Image stolen from this [Outside Online](https://www.outsideonline.com/2378286/enough-speakers-woods-already) article.
+
+(Image stolen from this [Outside Online](https://www.outsideonline.com/2378286/enough-speakers-woods-already) article.)
 
 ## Do lots of skids and ride in mud
 

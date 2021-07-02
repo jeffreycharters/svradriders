@@ -2,6 +2,7 @@
 title: "Looking Better"
 date: 2021-06-27T13:36:15-04:00
 draft: false
+thumbnail: "2021-06-27-bearcat.jpg"
 description: "A quick update on some behind-the-scenes goings-on."
 tags: [
     "meta",
@@ -26,7 +27,6 @@ In numeric order, here are a few of the gems that will probably be rejected:
 These ideas seem pretty bad, but there are actually more usable ideas in the list than we might have expected.
 
 {{< image src="2021-06-27-bearcat.jpg" alt="A dog laying on her back, looking strange." caption="Bear being a dick and bugging me." >}}
-*Bear being a dick and bugging me.*
 
 Having said that, there are a number of topics from commuter biking to gravel and mountain biking to the pro racing scene to music and computer stuff.
 

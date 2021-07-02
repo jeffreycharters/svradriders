@@ -6,22 +6,11 @@
     <a href="{{ "/blog" | relURL }}">Remove filter</a>
   </small>
   {{ end }}
-  <ul class="blog-posts">
+
     {{ range .Pages }}
-    <li>
-      <span>
-        <time datetime='{{ .Date.Format "2006-01-02" }}' pubdate>
-          {{ .Date.Format (default "02 Jan, 2006" .Site.Params.dateFormat) }}
-        </time>
-      </span>
-      <a href="{{ .Permalink }}">{{ .Title }}</a>
-    </li>
-    {{ else }}
-    <li>
-      No posts yet
-    </li>
+      {{ partial "bloglink.html" . }}
     {{ end }}
-  </ul>
+
   {{ if .Data.Singular }}
   {{else}}
     <small>
