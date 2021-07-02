@@ -32,7 +32,7 @@ Unfortunately, a few super-lame entrepreneurs have developed bone conduction tec
 
 I was going to call people out on their shitty music. But then I remembered when it's blasting out of a Bluetooth speaker in the middle of the forest there's no such thing as shitty music.
 
-{{< img src="images/2021-06-30-bike-speaker.webp" alt="An illustration of a mountain biker scaring animals with their music." caption="Blast it." >}}
+{{< image src="2021-06-30-bike-speaker.webp" alt="An illustration of a mountain biker scaring animals with their music." caption="Blast it." >}}
 Image stolen from this [Outside Online](https://www.outsideonline.com/2378286/enough-speakers-woods-already) article.
 
 ## Do lots of skids and ride in mud
@@ -51,7 +51,7 @@ This should be unspoken but I find most tutorials on being an asshole glaze over
 
 It used to be a forest until we conquered the shit out of nature and dug a few trails into the ground, now we can do as we please. Think about the contradiction we'd have otherwise - why are developers allowed to tear up forests and build beautiful cookie cutter subdivisions on them and I can't even artfully hang a Tim Horton's cup on a tree branch? It's the least you can do to keep things fair in the world. You can't call yourself an asshole mountain biker until you've left your Nature Valley wrapper at an intersection.
 
-{{< img src="images/2021-06-30-tims-cups.jpg" alt="A bunch of discarded Tim Horton's cups." caption="It reminds me of the line from *Mambo Number 5*, \"If it looks like this then you're doing it right\"." >}}
+{{< image src="2021-06-30-tims-cups.jpg" alt="A bunch of discarded Tim Horton's cups." caption="It reminds me of the line from *Mambo Number 5*, \"If it looks like this then you're doing it right\"." >}}
 *It reminds me of the line from *Mambo Number 5*, \"If it looks like this then you're doing it right\" I already forget who I stole the picture from. Sorry, stranger!*
 
 ---

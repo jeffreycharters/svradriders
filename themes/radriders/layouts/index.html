@@ -1,3 +1,23 @@
 {{ define "main" }}
-{{ .Content }}
+<content>
+  {{ range ( where .Site.RegularPages "Type" "blog" | first 10 ) }}
+      <a href="{{ .RelPermalink }}">
+        <div class="blog-listing" style="min-height: 120px; max-height: 360px;
+          {{ $srcUrl := .Params.thumbnail | default "radriders-hand.png" }}
+          {{ with .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
+            {{ $int := .Resize "720x smart q100 gaussian" }}
+            {{ $image := $int.Filter (images.GaussianBlur 2) (images.Saturation -50) (images.Brightness -10) }}
+            background-image: url({{ $image.RelPermalink }});
+            background-size: 100% auto;
+          {{ end -}}
+          ">
+          {{ .Title }}
+
+          <div class="blog-description">
+            {{ .Description }}
+          </div>
+        </div>
+      </a>
+{{end}}
+</content>
 {{ end }}

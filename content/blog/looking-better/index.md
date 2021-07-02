@@ -25,7 +25,7 @@ In numeric order, here are a few of the gems that will probably be rejected:
 
 These ideas seem pretty bad, but there are actually more usable ideas in the list than we might have expected.
 
-{{< img src="images/2021-06-27-bearcat.jpg" alt="A dog laying on her back, looking strange." caption="Bear being a dick and bugging me." >}}
+{{< image src="2021-06-27-bearcat.jpg" alt="A dog laying on her back, looking strange." caption="Bear being a dick and bugging me." >}}
 *Bear being a dick and bugging me.*
 
 Having said that, there are a number of topics from commuter biking to gravel and mountain biking to the pro racing scene to music and computer stuff.
