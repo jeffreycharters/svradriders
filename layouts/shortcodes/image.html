@@ -1,6 +1,10 @@
 {{/* get file that matches the filename as specified as src="" in shortcode */}}
 {{ $srcUrl := .Get "src" | safeURL }}
 {{ $src := .Page.Resources.GetMatch (printf "%s" $srcUrl) }}
+{{ if eq $src nil }}
+{{ $src = resources.GetMatch (printf "images/%s" $srcUrl) }}
+{{ end }}
+
 
 {{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
 
@@ -27,7 +31,7 @@
 {{ if .Get "src" }}
   <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
     <img {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 800px, 100vw"{{ end }}
-    class="blog-image"
+    class="blog-image" loading="lazy"
   srcset='
   {{ if ge $src.Width "500" }}
     {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}

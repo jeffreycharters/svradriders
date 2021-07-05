@@ -54,3 +54,13 @@ dateFormat = "Jan 2, 2006"
 [outputs]
 home = ["HTML", "JSON"]
 blog = ["HTML"]
+
+
+# Configure the Navigation menus
+[menu]
+
+[[menu.main]]
+identifier = "about"
+name = "About"
+url = "/about/"
+weight = -110

@@ -1,4 +1,7 @@
-<a href="{{ "/" | relURL }}">Home</a>
+<a href="{{ "/" | relURL }}">Blog</a>
+{{ with .Site.GetPage "/thoughts" }}
+<a href="{{ "/thoughts" | relURL }}">Thoughts</a>
+{{ end }}
 {{ range .Site.Menus.main }}
 <a href="{{ .URL }}">{{ .Name }}</a>
 {{ end }}
