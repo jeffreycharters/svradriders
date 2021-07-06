@@ -1,0 +1,14 @@
+{{ define "main" }}
+<content>
+
+<h1>Deep Thoughts</h1>
+
+    {{ range .Pages }}
+      {{ partial "thought.html" .}}
+      <hr>
+    {{ end }}
+
+    <p>So yeah, there's that.</p>
+
+</content>
+{{ end }}
