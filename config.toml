@@ -7,7 +7,7 @@ theme = 'radriders'
 # Basic metadata configuration for your blog.
 title = "RadRidersMTB"
 author = "Jeffrey"
-copyright = "Copyright © 2021, Dade Wilcox."
+copyright = "Copyright © 2021, jeffrey."
 languageCode = "en-US"
 
 # Generate a nice robots.txt for SEO
@@ -38,7 +38,7 @@ favicon = "images/rr-favicon.ico"
 # Another "title" :-). This one is used as the site_name on the Hugo's internal
 # opengraph structured data template.
 # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title = "Radriders Mountain Biking"
+title = "RadRiders Mountain Biking"
 
 # This theme will, by default, inject a made-with-line at the bottom of the page.
 # You can turn it off, but we would really appreciate if you don’t :-).
