@@ -24,7 +24,7 @@ As a result, the decision was made to replace the current set-up with a single c
 
 ## The New Ring
 
-It seems counter-intuitive to think that getting rid of the derailleur will somehow keep the chain from coming off when things get bumpy. But as usual, some smart people out there have deloped **narrow-wide technology**.
+It seems counter-intuitive to think that getting rid of the derailleur will somehow keep the chain from coming off when things get bumpy. But as usual, some smart people out there have developed **narrow-wide technology**.
 
 Take a look at the nearest bike, go ahead, I'll wait. I guess now that you've gone and come back, you could have just looked at the photo above. Notice when you look from above that there is a narrower notch and a fatter notch where the teeth insert? These new chainrings actually have a wider tooth and a narrower tooth that match this pattern. Observe:
 
@@ -45,7 +45,7 @@ My current chainring has 38 teeth, and I thought I'd like a bit more climbing po
 
 **Edit:** It might not be obvious but the main reason anyone in the mountain bike world updates their gear is that it looks better/cooler. I just feel that that is important to know.
 
-{{< image src="new-ring.jpg" alt="A photo of the new chaingring unmounted." caption="104 BCD is the distance between the mountain bolts." >}}
+{{< image src="new-ring.jpg" alt="A photo of the new chaingring unmounted." caption="104 BCD is the distance between the mounting bolts." >}}
 
 ## Installation
 
