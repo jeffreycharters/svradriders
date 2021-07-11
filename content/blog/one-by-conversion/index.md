@@ -6,7 +6,6 @@ thumbnail: "after-close.jpg"
 description: "Shedding some weight with no major downside."
 tags: [
     "DIY",
-    "chainring",
     "bikes"
 ]
 draft: false
