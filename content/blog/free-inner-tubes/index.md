@@ -67,7 +67,7 @@ Next step is inserting the valve stem. Grab some sort of sharp object and make a
 
 {{< image src="valve-in.jpg" alt="The new valve stem installed in the rim." caption="Push down on this side of the valve and tighten the ring on the other side to ensure an airtight seal. If there is a gentle rain starting to fall, get mad at Environment Canada for getting the forecast so wrong and push ahead with everything." >}}
 
-Alright, almost done here. Go grab that sealant you set down somewhere and don't really remember where. This company recommends about 60 mL for 700c wheels which are what these are. Luckily I've got a little bottle from a previous sealant adventure that is roughly 60 mL. Otherwise go rifle through the measuring cups and hope your significant other doesn't notice. [**Editor's note:** He's kidding, for the love of God do not put tire sealant in anything that will ever again hold food]. 
+Alright, almost done here. Go grab that sealant you set down somewhere and don't really remember where. This company recommends about 60 mL for 700c wheels which are what these are. Luckily I've got a little bottle from a previous sealant adventure that is roughly 60 mL. Otherwise go rifle through the measuring cups and hope your significant other doesn't notice. [**Editor's note:** He's kidding, for the love of God do not put tire sealant in anything that will ever again hold food].
 
 {{< image src="slime-in.jpg" alt="Adding sealant to the tire." caption="Dump it in, don't be shy." >}}
 
