@@ -5,8 +5,7 @@ date: "2021-07-01"
 thumbnail: "2021-07-01-lower_jurassic.jpg"
 description: "Some of the less appreciated trails in the neighbourhood."
 tags: [
-    "mtb",
-    "gorba",
+    "bikes",
     "trails"
 ]
 draft: false

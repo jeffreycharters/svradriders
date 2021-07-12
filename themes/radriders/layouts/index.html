@@ -3,5 +3,16 @@
 {{  range ( where .Site.RegularPages "Type" "blog" | first 10 ) }}
       {{ partial "bloglink.html" . }}
 {{end}}
+
+{{ if .Data.Singular }}
+  {{else}}
+    <small>
+      <div>
+        {{ range .Site.Taxonomies.tags }}
+        <a href="{{ .Page.Permalink }}">#{{ .Page.Title }}</a>&nbsp;
+        {{ end }}
+      </div>
+    </small>
+    {{ end }}
 </content>
 {{ end }}
