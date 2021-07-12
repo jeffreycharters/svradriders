@@ -1,5 +1,5 @@
 ---
-title: "Free Innertubes!"
+title: "Free Inner Tubes!"
 author: "jeffrey"
 date: "2021-07-11"
 thumbnail: "slime-in.jpg"
@@ -71,7 +71,9 @@ Alright, almost done here. Go grab that sealant you set down somewhere and don't
 
 {{< image src="slime-in.jpg" alt="Adding sealant to the tire." caption="Dump it in, don't be shy." >}}
 
-Now the adventure really begins and you will quickly discover whether your tires are huge pains in the ass or not. Grab your compressor, build some pressure and blow some air into the newly installed valve - before you get to this step, you might need a presta-to-schraeder valve converter thing that any bike shop can sell you. I did, but luckily I've got one on hand.
+When putting the rubber back on the rim, there is one very important thing to remember: make sure the valve lines up with the logo on the tire. This is part of secret mountain biker code and if your valve and logo don't match up everyone will think/know that you're a hack.
+
+Now the adventure really begins and you will quickly discover whether your tires are huge pains in the ass or not. Grab your compressor, build some pressure and blow some air into the newly installed valve - before you get to this step, you might need a presta-to-schraeder-valve converter thing that any bike shop can sell you. I did, but luckily I've got one on hand.
 
 {{< image src="compressor-time.jpg" alt="Air compressor and assembled tire photo." caption="A blast of air will hopefully bump everything gracefully and your tire will seat and the bead and rim will seal thing up nice. Alternatively, four hours of troubleshooting why your stupid piece of crap tire won't seat and why am I doing this again?" >}}
 
