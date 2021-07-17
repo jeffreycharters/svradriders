@@ -29,7 +29,7 @@
 
 
 {{ if .Get "src" }}
-  <figure class="{{ with .Get "position"}}{{ . }}{{ else -}} left {{- end }}" >
+  <figure>
     <img {{ with .Get "sizes" }}sizes='{{.}}'{{ else }}sizes="(min-width: 35em) 800px, 500px"{{ end }}
     class="blog-image" loading="lazy"
   srcset='

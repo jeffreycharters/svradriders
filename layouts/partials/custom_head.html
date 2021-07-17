@@ -1,8 +1,62 @@
 <style>
+
+:root {
+    --blue-1: #d6f4ff;
+    --blue-2: #00a9e9;
+    --blue-3: #0080aa;
+    --blue-4: #005a81;
+    --blue-5: #003459;
+    --blue-6: #001829;
+    --orange-1: #ffb703;
+    --orange-2: #fd9e02;
+    --orange-3: #fb8500;
+    --orange-4: #fb9017;
+    --orange-5: #d62828;
+    --orange-6: #fdcf9b;
+    --grey-1: #efefef;
+    --grey-5: #999;
+}
+
+.blog-body {
+    font-family: Merriweather, Verdana, sans-serif;
+    font-size: 0.95rem;
+    margin: 0;
+    line-height: 1.45rem;
+}
+
+.blog-body p {
+  text-indent: 20px;
+}
+
+.blog-body figure {
+  text-indent: 0;
+}
+
 .blog-image {
   border: 1px solid black;
   border-radius: 5px;
-  margin: auto;
+  width: 100%;
+  padding: 0;
+}
+
+.blog-title {
+  font-family: Kanit;
+  font-size: clamp(2rem, 1.8rem + 1vw, 2.3rem);
+  color: var(--blue-3);
+  text-shadow: 1px 1px var(--blue-5);
+  text-indent: 0.5rem;
+  line-height: 2.2rem;
+  margin: 0;
+}
+
+.blog-subtitle {
+  font-family: Kanit;
+  font-size: clamp(1.2rem, 1.1rem + 1vw, 1.6rem);
+  color: var(--orange-1);
+  text-shadow: 1px 1px var(--orange-5);
+  text-indent: -5px;
+  padding: 15px 20px;
+  margin: 0;
 }
 
 .title-container {
@@ -18,8 +72,14 @@
   margin: 0;
 }
 
+.small-margin {
+  margin: 2px;
+}
+
 figure {
+  width: 100%;
   margin: 0;
+  padding: 0;
 }
 
 figcaption {
