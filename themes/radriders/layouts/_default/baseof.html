@@ -26,20 +26,35 @@
 </head>
 
 <body>
-  <header>
-    {{- partial "header.html" . -}}
-  </header>
-  <main>
-    {{- block "main" . }}{{- end }}
-  </main>
-  <footer>
-    {{- partial "footer.html" . -}}
-  </footer>
+  <div class="page-container">
+    <header class="navbar">
+      {{- partial "header.html" . -}}
+    </header>
+    <main>
+      {{- block "main" . }}{{- end }}
+    </main>
+    <footer>
+      {{- partial "footer.html" . -}}
+    </footer>
 
-  <!-- A partial to be overwritten by the user.
-  Simply place a custom_body.html into
-  your local /layouts/partials-directory -->
-  {{- partial "custom_body.html" . -}}
+    <!-- A partial to be overwritten by the user.
+    Simply place a custom_body.html into
+    your local /layouts/partials-directory -->
+    {{- partial "custom_body.html" . -}}
+  </div>
 </body>
+
+<script>
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+    hamburger.classList.toggle("active");
+    navMenu.classList.toggle("active");
+}
+
+</script>
 
 </html>
