@@ -149,6 +149,17 @@ blockquote:before {
   border-radius: 2px;
 }
 
+#monogram {
+  position: relative;
+  top: 8px;
+}
+
+#hand-written {
+  min-width: 150px;
+  margin-left: clamp(25px, 25px + 5vw, 80px);
+  margin-top: 5px;
+}
+
 @media only screen and (max-width: 768px) {
   main {
     padding: 0 10px;
@@ -198,6 +209,16 @@ blockquote:before {
   .hamburger.active .bar:nth-child(3) {
       transform: translateY(-8px) rotate(-45deg);
   }
+
+  #hand-written {
+    min-width: 120px;
+    margin-left: clamp(5px, 5vw, 45px);
+    margin-top: 8px;
+  }
+
+  #monogram {
+    margin-top: 3px;
+  }
 }
 
 .title-logos {
@@ -207,16 +228,6 @@ blockquote:before {
   top: 5px;
   min-width: 100px;
   z-index: 5;
-}
-
-#monogram {
-  position: relative;
-  top: 3px;
-}
-
-#hand-written {
-  min-width: clamp(120px, 120px + 1vw, 150px);
-  margin-left: clamp(25px, 25px + 5vw, 80px);
 }
 
 .page-container {
