@@ -114,6 +114,7 @@ blockquote:before {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-bottom: 20px solid var(--blue-4);
 }
 
 .nav-item {
@@ -129,8 +130,8 @@ blockquote:before {
 }
 
 .nav-link:hover {
-  color: var(--orange-1);
-  background: rgba(255, 255, 255, 0.05);
+  color: var(--orange-3);
+  background: rgba(0, 0, 0, 0.05);
   border-radius: 10px;
 }
 
@@ -175,7 +176,7 @@ blockquote:before {
     left: -100%;
     top: 40px;
     flex-direction: column;
-    background-color: #fff;
+    background: var(--blue-1);
     width: 100%;
     border-radius: 10px;
     text-align: center;
@@ -187,10 +188,11 @@ blockquote:before {
     left: 0;
     border-radius: 0;
     top: 40px;
+    background: var(--blue-1);
   }
 
   .nav-item {
-    margin: 2.5rem 0;
+    margin: 0.5rem 0;
   }
 
   .hamburger {
