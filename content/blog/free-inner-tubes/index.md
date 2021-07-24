@@ -2,6 +2,7 @@
 title: "Free Inner Tubes!"
 author: "jeffrey"
 date: "2021-07-11"
+lastmod: "2021-07-12"
 thumbnail: "slime-in.jpg"
 description: "On a related note, my gravel bike runs tubeless now."
 tags: [
