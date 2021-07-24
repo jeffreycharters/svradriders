@@ -8,12 +8,14 @@
   <div class="blog-header-image">
     {{ if isset  .Params "author" }}
       {{ $srcUrl := printf "images/%s.png" $.Params.author | safeURL }}
-      {{ $src := resources.Get $srcUrl }}
-      <img src="{{ $src.RelPermalink }}" 
-        alt="{{ .Params.author }}'s Avatar"
-        height="{{ mul 2 $src.Height }}"
-        width="{{ mul 2 $src.Width }}"
-        >
+      {{ with resources.Get $srcUrl }}
+        {{ $src := resources.Get $srcUrl }}      
+        <img src="{{ $src.RelPermalink }}" 
+          alt="{{ .Params.author }}'s Avatar"
+          height="{{ mul 2 $src.Height }}"
+          width="{{ mul 2 $src.Width }}"
+          >
+      {{ end }}
     {{ end }}
   </div>
 
