@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article class="blog-container">
+
+<content class="blog-body">
+  {{ .Content }}
+</content>
+<p class="blog-body">
+  {{ range (.GetTerms "tags") }}
+    <a href="{{ .Permalink }}">#{{ .LinkTitle }}</a>
+  {{ end }}
+</p>
+</article>
+{{ end }}

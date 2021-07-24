@@ -1,6 +1,7 @@
 +++
 title = "About"
 date = "2021-07-05T14:11:59-04:00"
+layout = "staticpage"
 
 #
 # Set menu to "main" to add this page to

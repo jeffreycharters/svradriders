@@ -1,6 +1,7 @@
 +++
 title = "Contact"
 date = "2021-06-26T14:11:59-04:00"
+layout = "staticpage"
 
 #
 # Set menu to "main" to add this page to
