@@ -14,6 +14,7 @@
   --orange-5: #d62828;
   --orange-6: #fdcf9b;
   --grey-1: #efefef;
+  --grey-2: #cdcdcd;
   --grey-5: #999;
 }
 
@@ -57,11 +58,11 @@ blockquote:before {
     line-height: 1.45rem;
 }
 
-.blog-body a {
+.blog-body a, .thought-body a {
   color: var(--orange-1);
 }
 
-.blog-body a:visited {
+.blog-body a:visited, .thought-body a:visited {
   color: var(--blue-3);
 }
 
@@ -291,6 +292,22 @@ blockquote:before {
 	margin: auto;
 }
 
+.thought-body {
+  border: 1px solid var(--grey-2);
+  border-radius: 10px;
+  margin: 10px 3px;
+  padding: 20px;
+  font-size: 1.1rem;
+}
+
+.thought-body p {
+  padding: 3px 0;
+}
+
+.thought-time {
+  color: var(--grey-2);
+}
+
 .small-margin {
   margin: 2px;
 }
@@ -321,10 +338,6 @@ figure {
 figcaption {
   font-style: italic;
   font-size: 0.9rem;
-}
-
-.thought-time {
-  color: red;
 }
 
 .bloglink-writing {

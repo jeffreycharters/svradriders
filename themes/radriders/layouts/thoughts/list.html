@@ -1,14 +1,20 @@
 {{ define "main" }}
 <content>
 
+<div class="blog-container"> 
+
 <h1 class="blog-title">Deep Thoughts</h1>
 
     {{ range .Pages }}
       {{ partial "thought.html" .}}
-      <hr>
     {{ end }}
 
-    <p>So yeah, there's that.</p>
+    <div class="thought-body">
+      <p style="font-size: 1.2em;">That's it, go back to <a href="/">Blogs</a></p>
+    </div>
+
+</div>
+
 
 </content>
 {{ end }}
