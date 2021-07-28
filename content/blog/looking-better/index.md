@@ -17,12 +17,12 @@ Things are looking *really* good for the future of RadRiders. Yesterday we sat d
 
 In numeric order, here are a few of the gems that will probably be rejected:
 
-- 16. Anxiety and how to have it.
-- 22. Bear is being a dick and bugging me.
-- 30. I lost 0 pounds biking to work everyday.
-- 35. Bananas
-- 74. Should I wear a tie more often?
-- 83. My pronouns
+- (16) Anxiety and how to have it.
+- (22) Bear is being a dick and bugging me.
+- (30) I lost 0 pounds biking to work everyday.
+- (35) Bananas
+- (74) Should I wear a tie more often?
+- (83) My pronouns
 
 These ideas seem pretty bad, but there are actually more usable ideas in the list than we might have expected.
 
