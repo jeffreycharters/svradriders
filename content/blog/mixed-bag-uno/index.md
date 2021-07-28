@@ -1,5 +1,5 @@
 ---
-title: "Mixed Bag #1"
+title: "Mixed Bag 1st Edition"
 date: 2021-07-27
 draft: false
 description: "Since this is the way my brain works."
