@@ -3,6 +3,7 @@ title: "Mixed Bag 1st Edition"
 date: 2021-07-27
 draft: false
 description: "Since this is the way my brain works."
+thumbnail: "creepy-creep.jpg"
 tags: [
     "meta",
     "mixed-bag"
@@ -18,7 +19,7 @@ Alright, let's dig in.
 
 ### The 1x Conversion Update
 
-Recently you will recall that I wrote a very long, well-written update on [converting my mountain bike]({{< relref "/blog/one-by-conversion.md" >}}) to a "one-by" drivetrain. I've had the opportunity to go for a fre test drives on local trails, including some of the techier bits that would normally offer my derailleur an apparently insurmountable challenge.
+Recently you will recall that I wrote a very long, well-written update on [converting my mountain bike]({{< relref "/blog/one-by-conversion.md" >}}) to a "one-by" drivetrain. I've had the opportunity to go for a few test drives on local trails, including some of the techier bits that would normally offer my derailleur an apparently insurmountable challenge.
 
 *and holy shit it works!!*
 
@@ -32,21 +33,29 @@ Would you recommend to a friend? *sure.*
 
 ---
 
-### Be careful out there
+### I just can't
 
-One of the reasons I think it took longer than anticipated to get out on the upgraded full-squisher is that I was almost ran over by some dingus in his SUV turning left into me on a bright sunny day when it was 100% my right-of-way.
+[**Edit:** This whole section is an edit. Erased it all and starting over.]
 
-It rattled me.
+I wrote a little section here yesterday about not getting hit by cars while you're commuting or riding along the side of a road or whatever. Wherever cars go, they'll try to hit you.
 
-I've been riding to school or work or just professionally (as a messenger, not a talented professional) since I was like 11 years old. This is my thing, it's what I do. And I've been involved in more close calls than anyone would even bother counting because it happens **all the gosh-heck time**. And I'd say 95%+ of the time it's because the other person is a real chucklehead. The remaining 5%- of the time it's because the other person is a chucklehead and I'm a troll and like messing with them.
+And I cleaned up my language to an embarassing degree.
 
-[**Aside:** Once when I was a messenger I was going to count the number of red lights I ran in a day. After about half an hour I was already at 17 so said screw it.]
+And it made me angry.
 
-Details don't need to be expounded upon and it doesn't really matter because it's all in the past and we move on. But I just want to remind anyone who is biking on the road to keep their head on a swivel, assume everyone is super-distracted all the time and remember that cyclists pretty much lose any collision they're involved in.
+I was like, "oh hey I should clean up my language in case people read some cursing and get mad at me and I don't want to offend people" and it's true. I don't really want to offend people, I understand that everyone has different tolerances for various things.
 
-So use lights, ding the shit out of your bell even though they are lame and stupid.
+But the internet is full of websites where no one *ever* swears, and it sucks. Like, you don't have to swear, but sometimes sentences are better and funnier with some swears.
 
-Then just get out there and keep riding. As off-road as possible, all the time.
+Here's an unrelated Rick and Morty screen grab to break the tension:
+
+[{{< image src="creepy-creep.jpg" alt="A dog laying on her back, looking strange." alt="Rick pointing vindictively at Morty" >}}](https://masterofallscience.com) You're just a little creepy.. ..creep person!
+
+Now, don't get me wrong -- I often find that swearing is over-the-top and obnoxious and annoying and is a bit of a red flag. But occasionally I just need to say that stuff is shitty or that something's [fucked](https://www.youtube.com/watch?v=LHZESIBY3Ko).
+
+Furthermore, if you believe some random articles on the internet, swearing is linked with [intelligence and creativity](https://thefrontiersof.com/is-swearing-a-sign-of-intelligence-and-creativity/). I don't really trust them, but the proof, as they say, is in the pudding.
+
+So expect a few swears! Ha ha, I was going to say I could whip you up a Tampermonkey script to remove swear words from my webpage but some [beautiful mind](https://github.com/voidpy/devrant-unswear) has beaten me to the punch. God bless you, internet.
 
 ---
 
