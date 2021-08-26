@@ -1,7 +1,7 @@
 ---
-title: "Trail Photography for Rookies"
+title: "Rookie Trail Photographer"
 date: 2021-08-26
-draft: true
+draft: false
 description: "It's harder than I think."
 thumbnail: "tread-detail.jpg"
 tags: [
