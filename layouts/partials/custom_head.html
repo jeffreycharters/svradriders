@@ -243,13 +243,17 @@
       transition: 0.3s;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       border-bottom: 20px solid var(--blue-4);
+      {{- $src := resources.Get "images/shattered.png" -}}
+      background-image: url("{{ $src.RelPermalink }}");
     }
 
     .nav-menu.active {
       left: 0;
       border-radius: 0;
       top: 40px;
-      background: var(--blue-1);
+      background-color: var(--blue-1);
+      {{- $src := resources.Get "images/shattered.png" -}}
+      background-image: url("{{ $src.RelPermalink }}");
     }
 
     .nav-item {
