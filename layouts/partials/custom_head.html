@@ -2,13 +2,13 @@
   :root {
     --blue-1: #d6f4ff;
     --blue-2: #00a9e9;
-    --blue-3: #0080aa;
-    --blue-4: #005a81;
+    --blue-3: hsl(198, 100%, 30%);
+    --blue-4: hsl(198, 100%, 23%);
     --blue-5: #003459;
     --blue-6: #001829;
-    --orange-1: #ffb703;
-    --orange-2: #fd9e02;
-    --orange-3: #fb8500;
+    --orange-1: hsl(30, 100%, 70%);
+    --orange-2: hsl(37, 97%, 60%);
+    --orange-3: hsl(37, 100%, 50%);
     --orange-4: #fb9017;
     --orange-5: #d62828;
     --orange-6: #fdcf9b;
@@ -183,24 +183,25 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: clamp(25rem, 30vw, 30rem);
   }
 
   .nav-item {
     font-family: Kanit, sane-serif;
-    margin-left: 3vw;
   }
 
   .nav-link {
     font-size: 1.2rem;
     font-weight: 400;
     color: var(--orange-2);
-    padding: 3px 6px;
+    padding: 0.1rem 1rem;
+    transition: all 0.2s ease-out;
   }
 
   .nav-link:hover {
-    color: var(--orange-3);
-    background: rgba(0, 0, 0, 0.05);
-    border-radius: 10px;
+    color: var(--orange-1);
+    background: var(--blue-3);
+    border-radius: 6px;
   }
 
   .hamburger {
@@ -234,24 +235,32 @@
       padding: 0 10px;
     }
 
+    nav {
+      z-index: 4;
+    }
+
     .navbar {
       display: flex;
-      justify-contents: space-between;
+      justify-content: space-between;
       width: 100%;
+      position: sticky;
+      top: 0;
     }
 
     .nav-menu {
       position: fixed;
-      left: -100%;
+      left: -105%;
       top: 40px;
       flex-direction: column;
       background: var(--blue-1);
       width: 100%;
       border-radius: 10px;
       text-align: center;
-      transition: 0.3s;
+      transition: 0.3s ease-in-out;
       box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
       border-bottom: 20px solid var(--blue-4);
+      z-index: -2;
+      
       {{- $src := resources.Get "images/shattered.png" -}}
       background-image: url("{{ $src.RelPermalink }}");
     }
@@ -261,6 +270,7 @@
       border-radius: 0;
       top: 40px;
       background-color: var(--blue-1);
+
       {{- $src := resources.Get "images/shattered.png" -}}
       background-image: url("{{ $src.RelPermalink }}");
     }
@@ -387,7 +397,7 @@
   }
 
   .blog-description {
-    align: right;
+    text-align: right;
     font-size: clamp(0.8rem, 0.8rem + 1vw, 1.4rem);
     font-family: Kanit, sans-serif;
     padding-top: 5vmin;
